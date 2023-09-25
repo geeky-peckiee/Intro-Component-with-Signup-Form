@@ -1,0 +1,166 @@
+@media (min-width: 650px){
+main {
+    margin-top: -3em;
+    background: url('./images/bg-intro-desktop.png');
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5em;
+    padding-top: 7em;
+}
+.side-content {
+    margin-left: 0.5em;
+    margin-top: 4em;
+    width: 30%;
+}
+.side-content h1{
+    width: 7em;
+    text-align: left;
+}
+.side-content p{
+    width: 15em;
+   
+}
+
+.form-and-button {
+    width: 30%;
+    padding: 2em;
+    margin-left: -4em;
+}
+button {
+    width: 25em;
+}
+form {
+    width: 21em;
+    height: 21em;
+}
+form input {
+    width: 20.5em;
+}
+#claim {
+    width: 23.5em;
+}
+}
+
+/* for screen size 750 - 849*/
+@media (min-width: 750px) {
+main {
+        background: url('./images/bg-intro-desktop.png');
+        width: 100vw;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5em;
+        padding-top: 7em;
+    margin-top: -3em;
+}
+    .side-content {
+    margin-left: 1.5em;
+    margin-top: 4em;
+    width: 30%;
+}
+.side-content h1{
+    width: 8em;
+}
+.side-content p{
+    width: 25em;
+   
+}
+
+.form-and-button {
+    width: 30%;
+    padding: 2em;
+    margin-left: -4em;
+}
+button {
+    width: 25em;
+}
+form {
+    width: 21em;
+    height: 21em;
+}
+form input {
+    width: 20.5em;
+}
+#claim {
+    width: 23.5em;
+}
+}
+
+/* for screen size 850 - 950*/
+@media (min-width: 850px) {
+main {
+    background: url('./images/bg-intro-desktop.png');
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5em;
+    padding-top: 7em;
+    margin-top: -3em;
+}
+    .side-content {
+    margin-left: 3em;
+    margin-top: 4em;
+    width: 30%;
+}
+.side-content h1{
+    width: 8em;
+}
+.side-content p{
+    width: 25em;
+   
+}
+
+.form-and-button {
+    width: 30%;
+    padding: 2em;
+    margin-left: -4em;
+}
+button {
+    width: 29em;
+}
+form {
+    width: 24em;
+    height: 21em;
+}
+form input {
+    width: 25em;
+}
+#claim {
+    width: 29em;
+}
+}
+/* for screen size 950 - 1000*/
+@media (min-width: 950px) {
+    main {
+        background: url('./images/bg-intro-desktop.png');
+        width: 100vw;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5em;
+        padding-top: 7em;
+    }
+
+.side-content {
+    margin-left: 15em;
+    margin-top: 10em;
+    width: 30%;
+}
+.side-content h1{
+    width: 10em;
+}
+.side-content p{
+    width: 27em;
+   
+}
+
+.form-and-button {
+    width: 30%;
+    padding: 2em;
+    margin-left: -4em;
+    margin-top: 3em;
+}
+}

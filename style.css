@@ -1,0 +1,115 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif; 
+    width: 100%;
+    height: 100vh;
+    max-width: 1440px;
+}
+main {
+    background: url('./images/bg-intro-mobile.png');
+    width: 100vw;
+    height: 100%;
+    column-gap: 0.5em;
+    padding-top: 1em;
+}
+.side-content {
+    width: 40%;
+    padding: 2em;
+    color: white;
+    display: block;
+    margin-left: 0.7em;
+    margin-top: 1em;
+}
+.side-content h1{
+    width: 13em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+.side-content p{
+    width: 36em;
+    text-align: justify;
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-top: 2em;
+    line-height: 20px;
+}
+.form-and-button {
+    width: 100%;
+    margin-left: 3em;
+    padding-bottom: 2em;
+}
+button {
+    width: 30em;
+    padding: 1em;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    background-color: hsl(248, 32%, 49%);
+}
+span {
+    font-weight: 100;
+}
+form {
+    width: 35em;
+    height: 25em;
+    padding: 2.2em;
+    border-radius: 7px;
+    margin-top: 1em;
+    background-color: white;
+}
+form input {
+    display: block;
+    width: 26.5em;
+    padding: 0.8em;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-bottom: 0.9em;
+    border-radius: 5px;
+    color: hsl(249, 10%, 26%);
+    border: 0.5px solid hsl(246, 25%, 77%);
+}
+#claim {
+    width: 30.4em;
+    display: block;
+    padding: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 1.2em;
+    font-weight: 600;
+    font-size: 0.7em;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+}
+#claim:hover {
+    background-color: hsla(154, 59%, 51%, 0.5);
+}
+.terms {
+    font-weight: 600;
+    cursor: pointer;
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+form p {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.6em;
+    padding-top: 1.5em;
+}
+.error {
+    width: 27em;
+    font-weight: 600;
+    color: red;
+    margin-top: -2.2em;
+    margin-bottom: 0.5em;
+    font-size: 0.6em;
+    text-align: right;
+}
